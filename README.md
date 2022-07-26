@@ -19,5 +19,5 @@ mvn clean integration-test -Drunner=MainRunner
 
 ## Considerations
 * By default main runner will execute tag "@validated"
-* Evidences are located in "target/report-evidences/CucumberHtmlReport.html" folder
+* After project is executed, the evidences are located in "target/report-evidences/CucumberHtmlReport.html" folder
 * Logs are located in "target/generated-report" folder
